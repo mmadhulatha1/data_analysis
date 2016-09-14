@@ -36,7 +36,7 @@
 
 		mv ~/*.tsv  /var/lib/mysql/data_analysis
 
-		mysql -u user1 -p data_analysis < src/main/setup.sql				
+		mysql -u user1 -p data_analysis < src/main/sql/setup.sql				
 
 		mysql> show tables;
 		+-------------------------+
